@@ -3,7 +3,7 @@
 //  JPPVideoPlayerTester
 //
 //  Created by Jamie Pinkham on 8/15/13.
-//  Copyright (c) 2013 Bottle Rocket. All rights reserved.
+//  Copyright (c) 2013 Jamie Pinkham. All rights reserved.
 //
 
 #import "JPPAppDelegate.h"

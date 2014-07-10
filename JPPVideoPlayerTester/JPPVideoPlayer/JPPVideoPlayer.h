@@ -3,7 +3,7 @@
 //  JPPVideoPlayerTester
 //
 //  Created by Jamie Pinkham on 9/6/13.
-//  Copyright (c) 2013 Bottle Rocket. All rights reserved.
+//  Copyright (c) 2013 Jamie Pinkham. All rights reserved.
 //
 
 #ifndef JPPVideoPlayerTester_JPPVideoPlayer_h
