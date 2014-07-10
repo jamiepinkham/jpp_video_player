@@ -12,16 +12,60 @@
 		7D818032196EE391007D02B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D818031196EE391007D02B0 /* UIKit.framework */; };
 		7D818038196EE391007D02B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D818036196EE391007D02B0 /* InfoPlist.strings */; };
 		7D81803A196EE391007D02B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D818039196EE391007D02B0 /* main.m */; };
-		7D81803E196EE391007D02B0 /* JPPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D81803D196EE391007D02B0 /* JPPAppDelegate.m */; };
-		7D818041196EE391007D02B0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D81803F196EE391007D02B0 /* Main_iPhone.storyboard */; };
-		7D818044196EE391007D02B0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D818042196EE391007D02B0 /* Main_iPad.storyboard */; };
-		7D818047196EE391007D02B0 /* JPPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D818046196EE391007D02B0 /* JPPViewController.m */; };
 		7D818049196EE391007D02B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D818048196EE391007D02B0 /* Images.xcassets */; };
 		7D818050196EE391007D02B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D81804F196EE391007D02B0 /* XCTest.framework */; };
 		7D818051196EE391007D02B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D81802D196EE391007D02B0 /* Foundation.framework */; };
 		7D818052196EE391007D02B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D818031196EE391007D02B0 /* UIKit.framework */; };
 		7D81805A196EE391007D02B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D818058196EE391007D02B0 /* InfoPlist.strings */; };
 		7D81805C196EE391007D02B0 /* JPPVideoPlayerTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D81805B196EE391007D02B0 /* JPPVideoPlayerTesterTests.m */; };
+		7D8180CB196EE448007D02B0 /* JPPAirplayControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8180B2196EE448007D02B0 /* JPPAirplayControl.m */; };
+		7D8180CC196EE448007D02B0 /* JPPBasePlaybackControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8180B4196EE448007D02B0 /* JPPBasePlaybackControl.m */; };
+		7D8180CD196EE448007D02B0 /* JPPClosedCaptioningControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8180B6196EE448007D02B0 /* JPPClosedCaptioningControl.m */; };
+		7D8180CE196EE448007D02B0 /* JPPControlContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8180B8196EE448007D02B0 /* JPPControlContainer.m */; };
+		7D8180CF196EE448007D02B0 /* JPPCuePointSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8180BA196EE448007D02B0 /* JPPCuePointSlider.m */; };
+		7D8180D0196EE448007D02B0 /* JPPFullscreenToggleControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8180BC196EE448007D02B0 /* JPPFullscreenToggleControl.m */; };
+		7D8180D1196EE448007D02B0 /* JPPPlaybackControlsBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8180BF196EE448007D02B0 /* JPPPlaybackControlsBar.m */; };
+		7D8180D2196EE448007D02B0 /* JPPPlayPauseControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8180C1196EE448007D02B0 /* JPPPlayPauseControl.m */; };
+		7D8180D3196EE448007D02B0 /* JPPTimeLabelControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8180C3196EE448007D02B0 /* JPPTimeLabelControl.m */; };
+		7D8180D4196EE448007D02B0 /* JPPVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8180C6196EE448007D02B0 /* JPPVideoPlayerController.m */; };
+		7D8180D5196EE448007D02B0 /* JPPVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8180CA196EE448007D02B0 /* JPPVideoPlayerView.m */; };
+		7D8180DC196EE473007D02B0 /* JPPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8180D7196EE473007D02B0 /* JPPAppDelegate.m */; };
+		7D8180DD196EE473007D02B0 /* JPPSkipBackControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8180D9196EE473007D02B0 /* JPPSkipBackControl.m */; };
+		7D8180DE196EE473007D02B0 /* JPPVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8180DB196EE473007D02B0 /* JPPVideoPlayerViewController.m */; };
+		7D818108196EE539007D02B0 /* thumb_scrubber.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180E4196EE539007D02B0 /* thumb_scrubber.png */; };
+		7D818109196EE539007D02B0 /* thumb_scrubber@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180E5196EE539007D02B0 /* thumb_scrubber@2x.png */; };
+		7D81810A196EE539007D02B0 /* video_airplay.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180E6196EE539007D02B0 /* video_airplay.png */; };
+		7D81810B196EE539007D02B0 /* video_airplay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180E7196EE539007D02B0 /* video_airplay@2x.png */; };
+		7D81810C196EE539007D02B0 /* video_airplay_touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180E8196EE539007D02B0 /* video_airplay_touch.png */; };
+		7D81810D196EE539007D02B0 /* video_airplay_touch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180E9196EE539007D02B0 /* video_airplay_touch@2x.png */; };
+		7D81810E196EE539007D02B0 /* video_back10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180EA196EE539007D02B0 /* video_back10.png */; };
+		7D81810F196EE539007D02B0 /* video_back10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180EB196EE539007D02B0 /* video_back10@2x.png */; };
+		7D818110196EE539007D02B0 /* video_back10_touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180EC196EE539007D02B0 /* video_back10_touch.png */; };
+		7D818111196EE539007D02B0 /* video_back10_touch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180ED196EE539007D02B0 /* video_back10_touch@2x.png */; };
+		7D818112196EE539007D02B0 /* video_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180EE196EE539007D02B0 /* video_cc.png */; };
+		7D818113196EE539007D02B0 /* video_cc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180EF196EE539007D02B0 /* video_cc@2x.png */; };
+		7D818114196EE539007D02B0 /* video_cc_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180F0196EE539007D02B0 /* video_cc_on.png */; };
+		7D818115196EE539007D02B0 /* video_cc_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180F1196EE539007D02B0 /* video_cc_on@2x.png */; };
+		7D818116196EE539007D02B0 /* video_cc_touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180F2196EE539007D02B0 /* video_cc_touch.png */; };
+		7D818117196EE539007D02B0 /* video_cc_touch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180F3196EE539007D02B0 /* video_cc_touch@2x.png */; };
+		7D818118196EE539007D02B0 /* video_fullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180F4196EE539007D02B0 /* video_fullscreen.png */; };
+		7D818119196EE539007D02B0 /* video_fullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180F5196EE539007D02B0 /* video_fullscreen@2x.png */; };
+		7D81811A196EE539007D02B0 /* video_fullscreen_touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180F6196EE539007D02B0 /* video_fullscreen_touch.png */; };
+		7D81811B196EE539007D02B0 /* video_fullscreen_touch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180F7196EE539007D02B0 /* video_fullscreen_touch@2x.png */; };
+		7D81811C196EE539007D02B0 /* video_letterbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180F8196EE539007D02B0 /* video_letterbox.png */; };
+		7D81811D196EE539007D02B0 /* video_letterbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180F9196EE539007D02B0 /* video_letterbox@2x.png */; };
+		7D81811E196EE539007D02B0 /* video_letterbox_touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180FA196EE539007D02B0 /* video_letterbox_touch.png */; };
+		7D81811F196EE539007D02B0 /* video_letterbox_touch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180FB196EE539007D02B0 /* video_letterbox_touch@2x.png */; };
+		7D818120196EE539007D02B0 /* video_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180FC196EE539007D02B0 /* video_pause.png */; };
+		7D818121196EE539007D02B0 /* video_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180FD196EE539007D02B0 /* video_pause@2x.png */; };
+		7D818122196EE539007D02B0 /* video_pause_touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180FE196EE539007D02B0 /* video_pause_touch.png */; };
+		7D818123196EE539007D02B0 /* video_pause_touch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D8180FF196EE539007D02B0 /* video_pause_touch@2x.png */; };
+		7D818124196EE539007D02B0 /* video_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D818100196EE539007D02B0 /* video_play.png */; };
+		7D818125196EE539007D02B0 /* video_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D818101196EE539007D02B0 /* video_play@2x.png */; };
+		7D818126196EE539007D02B0 /* video_play_touch.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D818102196EE539007D02B0 /* video_play_touch.png */; };
+		7D818127196EE539007D02B0 /* video_play_touch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D818103196EE539007D02B0 /* video_play_touch@2x.png */; };
+		7D818128196EE539007D02B0 /* video_track_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D818104196EE539007D02B0 /* video_track_filled.png */; };
+		7D818129196EE539007D02B0 /* video_track_unfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D818105196EE539007D02B0 /* video_track_unfilled.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,18 +87,81 @@
 		7D818037196EE391007D02B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D818039196EE391007D02B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D81803B196EE391007D02B0 /* JPPVideoPlayerTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JPPVideoPlayerTester-Prefix.pch"; sourceTree = "<group>"; };
-		7D81803C196EE391007D02B0 /* JPPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPPAppDelegate.h; sourceTree = "<group>"; };
-		7D81803D196EE391007D02B0 /* JPPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPPAppDelegate.m; sourceTree = "<group>"; };
-		7D818040196EE391007D02B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		7D818043196EE391007D02B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		7D818045196EE391007D02B0 /* JPPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPPViewController.h; sourceTree = "<group>"; };
-		7D818046196EE391007D02B0 /* JPPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPPViewController.m; sourceTree = "<group>"; };
 		7D818048196EE391007D02B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7D81804E196EE391007D02B0 /* JPPVideoPlayerTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPPVideoPlayerTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D81804F196EE391007D02B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7D818057196EE391007D02B0 /* JPPVideoPlayerTesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JPPVideoPlayerTesterTests-Info.plist"; sourceTree = "<group>"; };
 		7D818059196EE391007D02B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D81805B196EE391007D02B0 /* JPPVideoPlayerTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPPVideoPlayerTesterTests.m; sourceTree = "<group>"; };
+		7D8180B1196EE448007D02B0 /* JPPAirplayControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPAirplayControl.h; path = JPPVideoPlayer/JPPAirplayControl.h; sourceTree = "<group>"; };
+		7D8180B2196EE448007D02B0 /* JPPAirplayControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPPAirplayControl.m; path = JPPVideoPlayer/JPPAirplayControl.m; sourceTree = "<group>"; };
+		7D8180B3196EE448007D02B0 /* JPPBasePlaybackControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPBasePlaybackControl.h; path = JPPVideoPlayer/JPPBasePlaybackControl.h; sourceTree = "<group>"; };
+		7D8180B4196EE448007D02B0 /* JPPBasePlaybackControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPPBasePlaybackControl.m; path = JPPVideoPlayer/JPPBasePlaybackControl.m; sourceTree = "<group>"; };
+		7D8180B5196EE448007D02B0 /* JPPClosedCaptioningControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPClosedCaptioningControl.h; path = JPPVideoPlayer/JPPClosedCaptioningControl.h; sourceTree = "<group>"; };
+		7D8180B6196EE448007D02B0 /* JPPClosedCaptioningControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPPClosedCaptioningControl.m; path = JPPVideoPlayer/JPPClosedCaptioningControl.m; sourceTree = "<group>"; };
+		7D8180B7196EE448007D02B0 /* JPPControlContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPControlContainer.h; path = JPPVideoPlayer/JPPControlContainer.h; sourceTree = "<group>"; };
+		7D8180B8196EE448007D02B0 /* JPPControlContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPPControlContainer.m; path = JPPVideoPlayer/JPPControlContainer.m; sourceTree = "<group>"; };
+		7D8180B9196EE448007D02B0 /* JPPCuePointSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPCuePointSlider.h; path = JPPVideoPlayer/JPPCuePointSlider.h; sourceTree = "<group>"; };
+		7D8180BA196EE448007D02B0 /* JPPCuePointSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPPCuePointSlider.m; path = JPPVideoPlayer/JPPCuePointSlider.m; sourceTree = "<group>"; };
+		7D8180BB196EE448007D02B0 /* JPPFullscreenToggleControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPFullscreenToggleControl.h; path = JPPVideoPlayer/JPPFullscreenToggleControl.h; sourceTree = "<group>"; };
+		7D8180BC196EE448007D02B0 /* JPPFullscreenToggleControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPPFullscreenToggleControl.m; path = JPPVideoPlayer/JPPFullscreenToggleControl.m; sourceTree = "<group>"; };
+		7D8180BD196EE448007D02B0 /* JPPPlaybackControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPPlaybackControl.h; path = JPPVideoPlayer/JPPPlaybackControl.h; sourceTree = "<group>"; };
+		7D8180BE196EE448007D02B0 /* JPPPlaybackControlsBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPPlaybackControlsBar.h; path = JPPVideoPlayer/JPPPlaybackControlsBar.h; sourceTree = "<group>"; };
+		7D8180BF196EE448007D02B0 /* JPPPlaybackControlsBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPPPlaybackControlsBar.m; path = JPPVideoPlayer/JPPPlaybackControlsBar.m; sourceTree = "<group>"; };
+		7D8180C0196EE448007D02B0 /* JPPPlayPauseControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPPlayPauseControl.h; path = JPPVideoPlayer/JPPPlayPauseControl.h; sourceTree = "<group>"; };
+		7D8180C1196EE448007D02B0 /* JPPPlayPauseControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPPPlayPauseControl.m; path = JPPVideoPlayer/JPPPlayPauseControl.m; sourceTree = "<group>"; };
+		7D8180C2196EE448007D02B0 /* JPPTimeLabelControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPTimeLabelControl.h; path = JPPVideoPlayer/JPPTimeLabelControl.h; sourceTree = "<group>"; };
+		7D8180C3196EE448007D02B0 /* JPPTimeLabelControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPPTimeLabelControl.m; path = JPPVideoPlayer/JPPTimeLabelControl.m; sourceTree = "<group>"; };
+		7D8180C4196EE448007D02B0 /* JPPVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPVideoPlayer.h; path = JPPVideoPlayer/JPPVideoPlayer.h; sourceTree = "<group>"; };
+		7D8180C5196EE448007D02B0 /* JPPVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPVideoPlayerController.h; path = JPPVideoPlayer/JPPVideoPlayerController.h; sourceTree = "<group>"; };
+		7D8180C6196EE448007D02B0 /* JPPVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPPVideoPlayerController.m; path = JPPVideoPlayer/JPPVideoPlayerController.m; sourceTree = "<group>"; };
+		7D8180C7196EE448007D02B0 /* JPPVideoPlayerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPVideoPlayerFunctions.h; path = JPPVideoPlayer/JPPVideoPlayerFunctions.h; sourceTree = "<group>"; };
+		7D8180C8196EE448007D02B0 /* JPPVideoPlayerTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPVideoPlayerTypes.h; path = JPPVideoPlayer/JPPVideoPlayerTypes.h; sourceTree = "<group>"; };
+		7D8180C9196EE448007D02B0 /* JPPVideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPPVideoPlayerView.h; path = JPPVideoPlayer/JPPVideoPlayerView.h; sourceTree = "<group>"; };
+		7D8180CA196EE448007D02B0 /* JPPVideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPPVideoPlayerView.m; path = JPPVideoPlayer/JPPVideoPlayerView.m; sourceTree = "<group>"; };
+		7D8180D6196EE473007D02B0 /* JPPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPPAppDelegate.h; sourceTree = "<group>"; };
+		7D8180D7196EE473007D02B0 /* JPPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPPAppDelegate.m; sourceTree = "<group>"; };
+		7D8180D8196EE473007D02B0 /* JPPSkipBackControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPPSkipBackControl.h; sourceTree = "<group>"; };
+		7D8180D9196EE473007D02B0 /* JPPSkipBackControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPPSkipBackControl.m; sourceTree = "<group>"; };
+		7D8180DA196EE473007D02B0 /* JPPVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPPVideoPlayerViewController.h; sourceTree = "<group>"; };
+		7D8180DB196EE473007D02B0 /* JPPVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPPVideoPlayerViewController.m; sourceTree = "<group>"; };
+		7D8180E0196EE539007D02B0 /* BRAVideoPlayerResources-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BRAVideoPlayerResources-Info.plist"; sourceTree = "<group>"; };
+		7D8180E1196EE539007D02B0 /* BRAVideoPlayerResources-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BRAVideoPlayerResources-Prefix.pch"; sourceTree = "<group>"; };
+		7D8180E3196EE539007D02B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D8180E4196EE539007D02B0 /* thumb_scrubber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb_scrubber.png; sourceTree = "<group>"; };
+		7D8180E5196EE539007D02B0 /* thumb_scrubber@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb_scrubber@2x.png"; sourceTree = "<group>"; };
+		7D8180E6196EE539007D02B0 /* video_airplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_airplay.png; sourceTree = "<group>"; };
+		7D8180E7196EE539007D02B0 /* video_airplay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_airplay@2x.png"; sourceTree = "<group>"; };
+		7D8180E8196EE539007D02B0 /* video_airplay_touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_airplay_touch.png; sourceTree = "<group>"; };
+		7D8180E9196EE539007D02B0 /* video_airplay_touch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_airplay_touch@2x.png"; sourceTree = "<group>"; };
+		7D8180EA196EE539007D02B0 /* video_back10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_back10.png; sourceTree = "<group>"; };
+		7D8180EB196EE539007D02B0 /* video_back10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_back10@2x.png"; sourceTree = "<group>"; };
+		7D8180EC196EE539007D02B0 /* video_back10_touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_back10_touch.png; sourceTree = "<group>"; };
+		7D8180ED196EE539007D02B0 /* video_back10_touch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_back10_touch@2x.png"; sourceTree = "<group>"; };
+		7D8180EE196EE539007D02B0 /* video_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_cc.png; sourceTree = "<group>"; };
+		7D8180EF196EE539007D02B0 /* video_cc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_cc@2x.png"; sourceTree = "<group>"; };
+		7D8180F0196EE539007D02B0 /* video_cc_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_cc_on.png; sourceTree = "<group>"; };
+		7D8180F1196EE539007D02B0 /* video_cc_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_cc_on@2x.png"; sourceTree = "<group>"; };
+		7D8180F2196EE539007D02B0 /* video_cc_touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_cc_touch.png; sourceTree = "<group>"; };
+		7D8180F3196EE539007D02B0 /* video_cc_touch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_cc_touch@2x.png"; sourceTree = "<group>"; };
+		7D8180F4196EE539007D02B0 /* video_fullscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_fullscreen.png; sourceTree = "<group>"; };
+		7D8180F5196EE539007D02B0 /* video_fullscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_fullscreen@2x.png"; sourceTree = "<group>"; };
+		7D8180F6196EE539007D02B0 /* video_fullscreen_touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_fullscreen_touch.png; sourceTree = "<group>"; };
+		7D8180F7196EE539007D02B0 /* video_fullscreen_touch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_fullscreen_touch@2x.png"; sourceTree = "<group>"; };
+		7D8180F8196EE539007D02B0 /* video_letterbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_letterbox.png; sourceTree = "<group>"; };
+		7D8180F9196EE539007D02B0 /* video_letterbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_letterbox@2x.png"; sourceTree = "<group>"; };
+		7D8180FA196EE539007D02B0 /* video_letterbox_touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_letterbox_touch.png; sourceTree = "<group>"; };
+		7D8180FB196EE539007D02B0 /* video_letterbox_touch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_letterbox_touch@2x.png"; sourceTree = "<group>"; };
+		7D8180FC196EE539007D02B0 /* video_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_pause.png; sourceTree = "<group>"; };
+		7D8180FD196EE539007D02B0 /* video_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_pause@2x.png"; sourceTree = "<group>"; };
+		7D8180FE196EE539007D02B0 /* video_pause_touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_pause_touch.png; sourceTree = "<group>"; };
+		7D8180FF196EE539007D02B0 /* video_pause_touch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_pause_touch@2x.png"; sourceTree = "<group>"; };
+		7D818100196EE539007D02B0 /* video_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_play.png; sourceTree = "<group>"; };
+		7D818101196EE539007D02B0 /* video_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_play@2x.png"; sourceTree = "<group>"; };
+		7D818102196EE539007D02B0 /* video_play_touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_play_touch.png; sourceTree = "<group>"; };
+		7D818103196EE539007D02B0 /* video_play_touch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_play_touch@2x.png"; sourceTree = "<group>"; };
+		7D818104196EE539007D02B0 /* video_track_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_track_filled.png; sourceTree = "<group>"; };
+		7D818105196EE539007D02B0 /* video_track_unfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_track_unfilled.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +221,13 @@
 		7D818033196EE391007D02B0 /* JPPVideoPlayerTester */ = {
 			isa = PBXGroup;
 			children = (
-				7D81803C196EE391007D02B0 /* JPPAppDelegate.h */,
-				7D81803D196EE391007D02B0 /* JPPAppDelegate.m */,
-				7D81803F196EE391007D02B0 /* Main_iPhone.storyboard */,
-				7D818042196EE391007D02B0 /* Main_iPad.storyboard */,
-				7D818045196EE391007D02B0 /* JPPViewController.h */,
-				7D818046196EE391007D02B0 /* JPPViewController.m */,
+				7D8180D6196EE473007D02B0 /* JPPAppDelegate.h */,
+				7D8180D7196EE473007D02B0 /* JPPAppDelegate.m */,
+				7D8180D8196EE473007D02B0 /* JPPSkipBackControl.h */,
+				7D8180D9196EE473007D02B0 /* JPPSkipBackControl.m */,
+				7D8180DA196EE473007D02B0 /* JPPVideoPlayerViewController.h */,
+				7D8180DB196EE473007D02B0 /* JPPVideoPlayerViewController.m */,
+				7D81808A196EE3CF007D02B0 /* JPPVideoPlayer */,
 				7D818048196EE391007D02B0 /* Images.xcassets */,
 				7D818034196EE391007D02B0 /* Supporting Files */,
 			);
@@ -153,6 +261,84 @@
 				7D818058196EE391007D02B0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D81808A196EE3CF007D02B0 /* JPPVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7D8180DF196EE539007D02B0 /* JPPVideoPlayerResources */,
+				7D8180B1196EE448007D02B0 /* JPPAirplayControl.h */,
+				7D8180B2196EE448007D02B0 /* JPPAirplayControl.m */,
+				7D8180B3196EE448007D02B0 /* JPPBasePlaybackControl.h */,
+				7D8180B4196EE448007D02B0 /* JPPBasePlaybackControl.m */,
+				7D8180B5196EE448007D02B0 /* JPPClosedCaptioningControl.h */,
+				7D8180B6196EE448007D02B0 /* JPPClosedCaptioningControl.m */,
+				7D8180B7196EE448007D02B0 /* JPPControlContainer.h */,
+				7D8180B8196EE448007D02B0 /* JPPControlContainer.m */,
+				7D8180B9196EE448007D02B0 /* JPPCuePointSlider.h */,
+				7D8180BA196EE448007D02B0 /* JPPCuePointSlider.m */,
+				7D8180BB196EE448007D02B0 /* JPPFullscreenToggleControl.h */,
+				7D8180BC196EE448007D02B0 /* JPPFullscreenToggleControl.m */,
+				7D8180BD196EE448007D02B0 /* JPPPlaybackControl.h */,
+				7D8180BE196EE448007D02B0 /* JPPPlaybackControlsBar.h */,
+				7D8180BF196EE448007D02B0 /* JPPPlaybackControlsBar.m */,
+				7D8180C0196EE448007D02B0 /* JPPPlayPauseControl.h */,
+				7D8180C1196EE448007D02B0 /* JPPPlayPauseControl.m */,
+				7D8180C2196EE448007D02B0 /* JPPTimeLabelControl.h */,
+				7D8180C3196EE448007D02B0 /* JPPTimeLabelControl.m */,
+				7D8180C4196EE448007D02B0 /* JPPVideoPlayer.h */,
+				7D8180C5196EE448007D02B0 /* JPPVideoPlayerController.h */,
+				7D8180C6196EE448007D02B0 /* JPPVideoPlayerController.m */,
+				7D8180C7196EE448007D02B0 /* JPPVideoPlayerFunctions.h */,
+				7D8180C8196EE448007D02B0 /* JPPVideoPlayerTypes.h */,
+				7D8180C9196EE448007D02B0 /* JPPVideoPlayerView.h */,
+				7D8180CA196EE448007D02B0 /* JPPVideoPlayerView.m */,
+			);
+			name = JPPVideoPlayer;
+			sourceTree = "<group>";
+		};
+		7D8180DF196EE539007D02B0 /* JPPVideoPlayerResources */ = {
+			isa = PBXGroup;
+			children = (
+				7D8180E0196EE539007D02B0 /* BRAVideoPlayerResources-Info.plist */,
+				7D8180E1196EE539007D02B0 /* BRAVideoPlayerResources-Prefix.pch */,
+				7D8180E2196EE539007D02B0 /* InfoPlist.strings */,
+				7D8180E4196EE539007D02B0 /* thumb_scrubber.png */,
+				7D8180E5196EE539007D02B0 /* thumb_scrubber@2x.png */,
+				7D8180E6196EE539007D02B0 /* video_airplay.png */,
+				7D8180E7196EE539007D02B0 /* video_airplay@2x.png */,
+				7D8180E8196EE539007D02B0 /* video_airplay_touch.png */,
+				7D8180E9196EE539007D02B0 /* video_airplay_touch@2x.png */,
+				7D8180EA196EE539007D02B0 /* video_back10.png */,
+				7D8180EB196EE539007D02B0 /* video_back10@2x.png */,
+				7D8180EC196EE539007D02B0 /* video_back10_touch.png */,
+				7D8180ED196EE539007D02B0 /* video_back10_touch@2x.png */,
+				7D8180EE196EE539007D02B0 /* video_cc.png */,
+				7D8180EF196EE539007D02B0 /* video_cc@2x.png */,
+				7D8180F0196EE539007D02B0 /* video_cc_on.png */,
+				7D8180F1196EE539007D02B0 /* video_cc_on@2x.png */,
+				7D8180F2196EE539007D02B0 /* video_cc_touch.png */,
+				7D8180F3196EE539007D02B0 /* video_cc_touch@2x.png */,
+				7D8180F4196EE539007D02B0 /* video_fullscreen.png */,
+				7D8180F5196EE539007D02B0 /* video_fullscreen@2x.png */,
+				7D8180F6196EE539007D02B0 /* video_fullscreen_touch.png */,
+				7D8180F7196EE539007D02B0 /* video_fullscreen_touch@2x.png */,
+				7D8180F8196EE539007D02B0 /* video_letterbox.png */,
+				7D8180F9196EE539007D02B0 /* video_letterbox@2x.png */,
+				7D8180FA196EE539007D02B0 /* video_letterbox_touch.png */,
+				7D8180FB196EE539007D02B0 /* video_letterbox_touch@2x.png */,
+				7D8180FC196EE539007D02B0 /* video_pause.png */,
+				7D8180FD196EE539007D02B0 /* video_pause@2x.png */,
+				7D8180FE196EE539007D02B0 /* video_pause_touch.png */,
+				7D8180FF196EE539007D02B0 /* video_pause_touch@2x.png */,
+				7D818100196EE539007D02B0 /* video_play.png */,
+				7D818101196EE539007D02B0 /* video_play@2x.png */,
+				7D818102196EE539007D02B0 /* video_play_touch.png */,
+				7D818103196EE539007D02B0 /* video_play_touch@2x.png */,
+				7D818104196EE539007D02B0 /* video_track_filled.png */,
+				7D818105196EE539007D02B0 /* video_track_unfilled.png */,
+			);
+			path = JPPVideoPlayerResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +418,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D818044196EE391007D02B0 /* Main_iPad.storyboard in Resources */,
+				7D81811A196EE539007D02B0 /* video_fullscreen_touch.png in Resources */,
+				7D818116196EE539007D02B0 /* video_cc_touch.png in Resources */,
+				7D818124196EE539007D02B0 /* video_play.png in Resources */,
+				7D818128196EE539007D02B0 /* video_track_filled.png in Resources */,
+				7D818129196EE539007D02B0 /* video_track_unfilled.png in Resources */,
+				7D818119196EE539007D02B0 /* video_fullscreen@2x.png in Resources */,
 				7D818049196EE391007D02B0 /* Images.xcassets in Resources */,
-				7D818041196EE391007D02B0 /* Main_iPhone.storyboard in Resources */,
+				7D81810B196EE539007D02B0 /* video_airplay@2x.png in Resources */,
+				7D818127196EE539007D02B0 /* video_play_touch@2x.png in Resources */,
+				7D818111196EE539007D02B0 /* video_back10_touch@2x.png in Resources */,
+				7D81810F196EE539007D02B0 /* video_back10@2x.png in Resources */,
+				7D818122196EE539007D02B0 /* video_pause_touch.png in Resources */,
+				7D818109196EE539007D02B0 /* thumb_scrubber@2x.png in Resources */,
+				7D818123196EE539007D02B0 /* video_pause_touch@2x.png in Resources */,
+				7D81810D196EE539007D02B0 /* video_airplay_touch@2x.png in Resources */,
+				7D81811C196EE539007D02B0 /* video_letterbox.png in Resources */,
+				7D818113196EE539007D02B0 /* video_cc@2x.png in Resources */,
+				7D818112196EE539007D02B0 /* video_cc.png in Resources */,
+				7D818114196EE539007D02B0 /* video_cc_on.png in Resources */,
+				7D81810A196EE539007D02B0 /* video_airplay.png in Resources */,
+				7D818108196EE539007D02B0 /* thumb_scrubber.png in Resources */,
+				7D818125196EE539007D02B0 /* video_play@2x.png in Resources */,
+				7D818115196EE539007D02B0 /* video_cc_on@2x.png in Resources */,
+				7D818120196EE539007D02B0 /* video_pause.png in Resources */,
+				7D81810C196EE539007D02B0 /* video_airplay_touch.png in Resources */,
+				7D818117196EE539007D02B0 /* video_cc_touch@2x.png in Resources */,
 				7D818038196EE391007D02B0 /* InfoPlist.strings in Resources */,
+				7D81811E196EE539007D02B0 /* video_letterbox_touch.png in Resources */,
+				7D81810E196EE539007D02B0 /* video_back10.png in Resources */,
+				7D81811D196EE539007D02B0 /* video_letterbox@2x.png in Resources */,
+				7D81811B196EE539007D02B0 /* video_fullscreen_touch@2x.png in Resources */,
+				7D818110196EE539007D02B0 /* video_back10_touch.png in Resources */,
+				7D818121196EE539007D02B0 /* video_pause@2x.png in Resources */,
+				7D818126196EE539007D02B0 /* video_play_touch.png in Resources */,
+				7D81811F196EE539007D02B0 /* video_letterbox_touch@2x.png in Resources */,
+				7D818118196EE539007D02B0 /* video_fullscreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +472,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D8180D3196EE448007D02B0 /* JPPTimeLabelControl.m in Sources */,
+				7D8180CD196EE448007D02B0 /* JPPClosedCaptioningControl.m in Sources */,
+				7D8180DD196EE473007D02B0 /* JPPSkipBackControl.m in Sources */,
+				7D8180CE196EE448007D02B0 /* JPPControlContainer.m in Sources */,
+				7D8180DC196EE473007D02B0 /* JPPAppDelegate.m in Sources */,
+				7D8180D4196EE448007D02B0 /* JPPVideoPlayerController.m in Sources */,
+				7D8180D2196EE448007D02B0 /* JPPPlayPauseControl.m in Sources */,
+				7D8180D0196EE448007D02B0 /* JPPFullscreenToggleControl.m in Sources */,
 				7D81803A196EE391007D02B0 /* main.m in Sources */,
-				7D81803E196EE391007D02B0 /* JPPAppDelegate.m in Sources */,
-				7D818047196EE391007D02B0 /* JPPViewController.m in Sources */,
+				7D8180DE196EE473007D02B0 /* JPPVideoPlayerViewController.m in Sources */,
+				7D8180CC196EE448007D02B0 /* JPPBasePlaybackControl.m in Sources */,
+				7D8180D5196EE448007D02B0 /* JPPVideoPlayerView.m in Sources */,
+				7D8180D1196EE448007D02B0 /* JPPPlaybackControlsBar.m in Sources */,
+				7D8180CF196EE448007D02B0 /* JPPCuePointSlider.m in Sources */,
+				7D8180CB196EE448007D02B0 /* JPPAirplayControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,26 +517,18 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		7D81803F196EE391007D02B0 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D818040196EE391007D02B0 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		7D818042196EE391007D02B0 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D818043196EE391007D02B0 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		7D818058196EE391007D02B0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7D818059196EE391007D02B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D8180E2196EE539007D02B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D8180E3196EE539007D02B0 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
